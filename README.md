@@ -1,2 +1,2 @@
-# 663FinalProject
+# 663 Final Project
 On Spectral Clustering: Analysis and an algorithm 
