@@ -24,10 +24,11 @@
 \begin{document}
 
 \title{ Spectral Clustering Implementation and Appliacation }
-\author{Qi Wand ~~~ Hanqiu Xia}
+\author{Qi Wang ~~~ Hanqiu Xia}
 \maketitle
 
-\abstract{Please type abstract here...}
+\abstract{Spectral clustering is widely used in image segmentation. The main idea of spectral clustering is to use the spectrum (eigenvalues) of the similarity matrix of the data to perform dimensionality reduction and then perform clustering in fewer dimensions.  In this project, we investigated the normalized spectral decomposition algorithm from the paper "On Spectral Clustering: Analysis and an algorithm" by Ng, Jordan , and Weiss [1]. Their algorithm improved upon the existing spectral clustering algorithm by resolving the issues of inconsistent algorithms of using eigenvectors as well as providing evidence of it resulting in a reasonable clustering. We implemented the algorithm using Python with considering both common and edge cases. We also optimized the Python codes by applying vectorization, Cython, and Just-In-Time compiling. Finally, we tested the algorithm on simulated and real datasets and compare the experimental results with those of k-means clustering to see if spectral clustering dramatically improves the results.}
+
 \section{Background}
 \section{Implementation}
 \subsection{Algorithm for Spectral Clustering}
@@ -43,16 +44,16 @@
 
 \subsection{Vectorization}
 \subsection{Cython}
-\subsection{JIT (just-in-time compiling) }
+\subsection{JIT (Just-In-Time compiling) }
 
 \subsection{Improvement result}
 
 
 \section{Application and Comparison}
-\subsection{Simulate Data}
-
 \subsection{Application on Simulated Data}
-\subsection{Compare with K-means Algorithm}
+
+\subsection{Application on Real Data}
+\subsection{Comparison of Sepctral clustering and K-means}
 
 
 
