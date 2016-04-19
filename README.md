@@ -1,4 +1,5 @@
 # STA663 Final Project
-On Spectral Clustering: Analysis and an algorithm
 
-Qi Wang & Hanqiu Xia
+Project Title: Spectral Clustering Implementation and Application 
+
+Team Members: Qi Wang & Hanqiu Xia
